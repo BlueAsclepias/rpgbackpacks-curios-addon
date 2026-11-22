@@ -1,0 +1,14 @@
+
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.blueasclepias.rpgbackpacks_curios_addon.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "rpgbackpacks_curios_addon.refmap.json",
+  "mixins": [
+    "BackpackItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
