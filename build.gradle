@@ -129,7 +129,7 @@ tasks.named('jar', Jar) {
                 'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
-    archiveClassifier = 'unobfuscated'
+    finalizedBy 'reobfJar'
 }
 
 publishing {
